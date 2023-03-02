@@ -28,18 +28,18 @@ rect_pivot_offset = Vector2( 116, 36 )
 text = "Botão 1"
 
 [node name="Button2" type="Button" parent="."]
-margin_left = 784.0
-margin_top = 352.0
-margin_right = 906.0
-margin_bottom = 422.0
-text = "Botão 3"
+margin_left = 659.0
+margin_top = 350.0
+margin_right = 781.0
+margin_bottom = 420.0
+text = "Botão 2"
 
 [node name="Button3" type="Button" parent="."]
-margin_left = 651.0
-margin_top = 352.0
-margin_right = 764.0
-margin_bottom = 421.0
-text = "Botão 2"
+margin_left = 808.0
+margin_top = 350.0
+margin_right = 921.0
+margin_bottom = 419.0
+text = "Botão 3"
 
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
 [connection signal="pressed" from="Button2" to="." method="_on_Button2_pressed"]
